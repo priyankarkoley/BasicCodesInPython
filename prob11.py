@@ -1,6 +1,6 @@
-a = int(input("Enter the first number"))
-b = int(input("Enter the second number"))
-c = int(input("Enter the second number"))
+a = int(input("Enter the first side"))
+b = int(input("Enter the second side"))
+c = int(input("Enter the third side"))
 if(c<(a+b)):
     print("Triangle not possible.")
 elif(a<(c+b)):

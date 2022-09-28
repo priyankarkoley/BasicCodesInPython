@@ -1,4 +1,4 @@
-num = int(input('Enter the number to check : '))
+num = int(input("Enter the number to check : "))
 n = num
 count = 0
 while(num!=0):

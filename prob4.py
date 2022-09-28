@@ -1,7 +1,7 @@
 str = input("Enter the String: ")
-vowel = "aeiouAEIOU"
+upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 count = 0
 for letter in str:
-    if(letter not in vowel):
+    if(letter not in upper):
         count = count + 1
-print("The number of vowels in the string is:", count)
+print("The number of lowercasse characters in the string is:", count)

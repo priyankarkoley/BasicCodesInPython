@@ -1,4 +1,4 @@
-num = int(input('Enter the number to check : '))
+num = int(input("Enter the number to check: "))
 count = 0
 prod = 1
 while(num!=0):
